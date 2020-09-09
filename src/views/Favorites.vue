@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div v-if="favoriteFilms.length === 0">
+    <div v-if="favoriteFilms.length === 0" class="no-favorite">
       No favorite film.
     </div>
 
-    <div v-if="favoriteFilms.length === 0" class="no-favorite">
+    <div v-if="favoriteFilms.length === 0">
       <h1>Your favorites list</h1>
 
       <div class="container">
