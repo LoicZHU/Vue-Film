@@ -4,7 +4,7 @@
       No favorite film.
     </div>
 
-    <div v-if="favoriteFilms.length === 0">
+    <div v-if="favoriteFilms.length > 0">
       <h1>Your favorites list</h1>
 
       <div class="container">
