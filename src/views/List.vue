@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-if="filmsApiPages.length === 0">
-      Erreur de chargement des films
+      Loading...
     </div>
 
     <div v-if="filmsApiPages.length > 0">
